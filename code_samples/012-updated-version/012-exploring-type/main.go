@@ -17,6 +17,8 @@ var a string = `James said,
 
 not stirred"`
 
+// '' ambil semuanya yang ada di dalam '' literally, termasuk space, enter dan ""
+
 // this is a STATIC programming language
 // a VARIABLE is DECLARED to hold a VALUE of a certain TYPE
 // not a DYNAMIC programming language
@@ -27,8 +29,8 @@ func main() {
 	fmt.Println(z)
 	fmt.Printf("%T\n", z)
 	fmt.Println(a)
-	fmt.Printf("%T\n", a)
-	// z = 43
+	fmt.Printf("%T\n", a) //"%T\n" untuk tau type dari "a"
+	// z = 43 ngga boleh kayak gini
 	// fmt.Println(z)
 	// fmt.Printf("%T\n", z)
 }

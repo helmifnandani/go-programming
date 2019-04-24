@@ -20,8 +20,10 @@ func main() {
 	// short declaration operator
 	// DECLARE a variable and ASSIGN a VALUE (of a certain TYPE)
 	x := 42
+	//declaration(:=) harus di dalam func
 	fmt.Println(x)
 
+	//kalau mau declare di luar func, pakai var
 	fmt.Println(y)
 
 	foo()
